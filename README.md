@@ -143,6 +143,7 @@ Mechanical checkers in `test-harness/` enforce fail-closed gate transitions and 
 | `validate-copy.py` | Enforces Content & Copy intent across flow screens, message intents, and lexical boundaries. |
 | `validate-a11y.py` | Enforces Accessibility requirements across flow screens, non-text content, and focus order. |
 | `apply-gate.py` | Applies human gate approvals atomically, enforcing deterministic YAML formatting (`NoAliasDumper`) and audit trails. |
+| `bootstrap-initiative.py` | Scaffolds `product/` folders, Control files, Decision logs, and Register with verified hashes. |
 
 ### Running Mechanical Verification Suites
 
@@ -162,7 +163,11 @@ python test-harness/test-validate-control.py
 1. Place this repository at the project workspace root.
 2. Keep .agents/skills/ at that root.
 3. Check the active Skill in Antigravity's Customizations panel.
-4. For each tab, read the active Skill, initialize/verify its canonical Control File and prerequisites, then open a fresh conversation and paste only that tab's matching prompt.
-5. Transfer context through workspace artifacts, not chat history.
+4. To bootstrap a fresh initiative folder structure across Processes 01–06, paste `prompts/00-BOOTSTRAP-INITIATIVE.md` or run:
+   ```bash
+   python test-harness/bootstrap-initiative.py --initiative-id <slug> --title "<title>"
+   ```
+5. For each tab, read the active Skill, initialize/verify its canonical Control File and prerequisites, then open a fresh conversation and paste only that tab's matching prompt.
+6. Transfer context through workspace artifacts, not chat history.
 
 Each process kit contains its prerequisites, output contracts, gates and verification notes. Repository checks are not a substitute for live Antigravity tests.
