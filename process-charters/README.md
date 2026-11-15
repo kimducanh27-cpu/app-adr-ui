@@ -13,9 +13,11 @@ A chartered process has no Skill, no prompts, no templates, no Control File and 
 | 03 | Product Definition | DEFINED | `.agents/skills/product-definition/SKILL.md` |
 | 04 | App Flow | DEFINED | `.agents/skills/app-flow/SKILL.md` |
 | 05 | UX Design | DEFINED | `.agents/skills/ux-design/SKILL.md` |
-| 06 | Design Systems | DEFINED | `.agents/skills/design-system/SKILL.md` |
-| 07 | UI Design | CHARTER ONLY | `process-charters/07-UI-DESIGN.md` |
-| 08 | Validation | CHARTER ONLY | `process-charters/08-VALIDATION.md` |
+| 06 | Design Systems | DEFINED (TERMINAL) | `.agents/skills/design-system/SKILL.md` |
+| 07 | UI Design | OUT-OF-SCOPE / EXTERNAL | `process-charters/07-UI-DESIGN.md` (historical charter) |
+| 08 | Validation | OUT-OF-SCOPE / EXTERNAL | `process-charters/08-VALIDATION.md` (historical charter) |
+
+This repository terminates at Process 06 (Design Systems). Charters 07 and 08 are out-of-scope for this repository and are retained as historical reference charters only; UI composition and downstream validation follow separate external workflows.
 
 The sequence is open-ended. No total count is asserted, in this file or in the root README. A number in this table means a slot, not a promise.
 

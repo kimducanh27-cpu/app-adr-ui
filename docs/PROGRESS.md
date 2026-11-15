@@ -56,4 +56,4 @@ The corollary is in `docs/RULES.md`: when a check replaces a prose requirement, 
 
 ## Next
 
-All tasks 1–6 are complete. The pipeline contracts and mechanical checkers for Processes 01–06 are merged and verified on `main`.
+All tasks 1–6 are complete. The pipeline contracts and mechanical checkers for Processes 01–06 are merged and verified on `main`. Repository scope terminates at Process 06 (Design Systems); UI design and subsequent stages follow external workflows.

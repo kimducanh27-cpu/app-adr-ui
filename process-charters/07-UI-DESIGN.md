@@ -1,6 +1,6 @@
 # Process 07 — UI Design (charter)
 
-> Status: **CHARTER — NO CONTRACT.** Scope only. No Skill, prompts, templates, Control File or gates exist.
+> Status: **OUT-OF-SCOPE / HISTORICAL CHARTER — NO CONTRACT.** This repository terminates at Process 06 (Design Systems). UI Design is handled in separate external workflows. Scope document preserved for historical reference only. No Skill, prompts, templates, Control File or gates exist in this repository.
 
 ## 1. Why this process exists
 

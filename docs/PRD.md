@@ -3,7 +3,7 @@
 
 # What this repository is
 
-A **process kit**, not an application. It contains no product code, no UI and no user. It defines how an AI agent and a human move a software idea from a raw thought to a frozen interface specification, in six gated stages, without the agent inventing decisions the human has not made.
+A **process kit**, not an application. It contains no product code, no UI and no user. It defines how an AI agent and a human move a software idea from a raw thought to a frozen Design System, terminating at Process 06 in six gated stages, without the agent inventing decisions the human has not made. UI design and downstream stages follow external workflows.
 
 Read this file first. It is the one-page answer to "what am I looking at".
 
@@ -28,9 +28,9 @@ If two people are reviewing, the gate model still works, but the exact-command p
 | 03 | Product Definition | contract exists |
 | 04 | App Flow | contract exists, schema v4 |
 | 05 | UX Design | contract exists, schema v1 |
-| 06 | Design Systems | contract exists, schema v1 |
-| 07 | UI Design | charter only |
-| 08 | Validation | charter only |
+| 06 | Design Systems | contract exists, schema v1 (terminal stage) |
+| 07 | UI Design | out-of-scope / external |
+| 08 | Validation | out-of-scope / external |
 
 Nine Skills, 57 templates, eight checking scripts, thirteen recorded findings.
 

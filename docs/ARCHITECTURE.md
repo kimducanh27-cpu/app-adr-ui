@@ -6,8 +6,10 @@
 ## The pipeline
 
 ```
-01 Seed ──► 02 Discovery ──► 03 Definition ──► 04 App Flow ──► 05 UX ──► 06 Design Systems ──► 07 UI ──► 08 Validation
-             (charter)        (charter)          (v4)           (v1)        (v1)              charter    charter
+01 Seed ──► 02 Discovery ──► 03 Definition ──► 04 App Flow ──► 05 UX ──► 06 Design Systems [TERMINAL]
+             (charter)        (charter)          (v4)           (v1)        (v1)
+
+External workflows: 07 UI Design ──► 08 Validation (out-of-scope for this repository)
 ```
 
 Each stage consumes the previous stage's **frozen** output and produces one frozen artifact. A stage that cannot verify its input stops with `NOT_VERIFIED`. It does not proceed on a guess.

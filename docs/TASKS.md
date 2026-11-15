@@ -51,6 +51,6 @@ Ordered by what produces evidence, not by what is easy. Do them one at a time. A
 
 **Completed.** Merged branch `pipeline/p05-p06` into `main` with explicit human command `MERGE PIPELINE P05-P06 TO MAIN` following 3 rounds of adversarial hard review (15/15 findings resolved, 7/7 two-sided mechanical test suites passing).
 
-## Not yet
+## Scope Boundary & External Stages
 
-Processes 07 and 08 are charter-only. They stay that way until a real initiative reaches Process 06. Writing their contracts now would repeat the mistake Process 04 made: a large mechanism built before the three-tab model had run once.
+Processes 07 (UI Design) and 08 (Validation) are out-of-scope for this repository. The pipeline in this kit terminates with the frozen Design System artifact from Process 06 (`product/design-system/DESIGN_SYSTEM.md`). UI composition, screen-level implementation, and downstream validation follow separate external workflows.
